@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Find all of Emily's official links in one place.">
+  <title>Emily Gomps | Links</title>
+  <style>
+    :root { color-scheme: dark; --bg:#101010; --panel:#1b1b1b; --text:#f6f2f2; --muted:#b9b3b5; --accent:#e8b9c7; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      padding: 28px 18px; background: radial-gradient(ellipse at top, #292025 0%, var(--bg) 58%);
+      color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main { width: 100%; max-width: 420px; text-align: center; }
+    .avatar {
+      width: 96px; height: 96px; margin: 0 auto 18px; border-radius: 50%;
+      display: grid; place-items: center; border: 1px solid #514047; background: #292025;
+      color: var(--accent); font-size: 34px; font-weight: 700; letter-spacing: 2px;
+    }
+    h1 { margin: 0; font-size: 28px; letter-spacing: .4px; }
+    .tagline { margin: 10px 0 28px; color: var(--muted); font-size: 14px; }
+    .links { display: grid; gap: 12px; }
+    .link {
+      display: block; padding: 16px 18px; border-radius: 13px; background: var(--panel);
+      border: 1px solid #343034; color: var(--text); text-decoration: none; font-weight: 600;
+      transition: transform .15s ease, border-color .15s ease, background .15s ease;
+    }
+    .link:hover, .link:focus-visible { transform: translateY(-2px); border-color: var(--accent); background: #252025; outline: none; }
+    .link.primary { background: var(--accent); border-color: var(--accent); color: #21171b; }
+    .link.primary:hover, .link.primary:focus-visible { background: #f0cbd6; }
+    footer { margin-top: 26px; color: #81797d; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="avatar" aria-hidden="true">EG</div>
+    <h1>Emily Gomps</h1>
+    <p class="tagline">a little mystery, all in one place ♡</p>
+
+    <nav class="links" aria-label="Official links">
+      <!-- Replace each URL below with your real profile link. Remove any buttons you don't need. -->
+      <a class="link" href="https://www.instagram.com/emilyg0mpz/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a class="link primary" href="https://www.fanvue.com/emilyg0mpz" target="_blank" rel="noopener noreferrer">Date?</a>
+      <a class="link" href="https://www.tiktok.com/@emilyg0mpz" target="_blank" rel="noopener noreferrer">TikTok</a>
+      <a class="link" href="https://x.com/emilyg0mpz" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+    </nav>
+
+    <footer>© Emily Gomps</footer>
+  </main>
+</body>
+</html>
